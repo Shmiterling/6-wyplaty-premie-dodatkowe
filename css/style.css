@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+#pracownicy{
+  width: 60%;
+  background-color: #3d69a3;
+  color:white;
+}
+
+#tytul-czas {
+  margin-left: 100px;
+}
+
+#tytul-stawka {
+  margin-left: 150px;
+}
+#tytul-wyplata {
+  margin-left: 150px;
+}
+
+div {
+  padding: 5px 15px;
+}
+.pracownik {
+  display: inline-block;
+  width: 200px;
+}
+
+button {
+  border: none;
+  padding: 10px 15px;
+  background-color:white;
+  font-weight: 700;
+  margin-left:15px;
+  margin-top:30px;
+  margin-bottom:30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(201, 217, 253);
+}
